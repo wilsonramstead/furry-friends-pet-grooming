@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- DEMO: remove noindex when site goes live -->
+<meta name="robots" content="noindex">
+
+<title>Furry Friends Pet Grooming — St. Petersburg Dog Groomer | George</title>
+<meta name="description" content="Furry Friends Pet Grooming is a personal, one-on-one dog groomer in St. Petersburg, FL. Full grooms, breed-style cuts, baths, de-shedding and walk-in nail trims — done gently and unhurried by owner-groomer George. Rated 4.8★ across 83 reviews. Call (727) 522-7387.">
+
+<!-- Open Graph / social preview -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Furry Friends Pet Grooming">
+<meta property="og:title" content="Furry Friends Pet Grooming — Personal Dog Grooming in St. Petersburg">
+<meta property="og:description" content="A calm, personal dog groomer in St. Petersburg — full grooms, baths, de-shedding and walk-in nail trims, one dog at a time. Not a retail assembly line. 4.8★ across 83 reviews.">
+<meta property="og:url" content="https://wilsoninnovations.net/furry-friends-pet-grooming/">
+<meta property="og:image" content="https://wilsoninnovations.net/furry-friends-pet-grooming/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Furry Friends Pet Grooming — Personal Dog Grooming in St. Petersburg">
+<meta name="twitter:description" content="Calm, unhurried dog grooming in St. Petersburg — one dog at a time, groomed by owner George. 4.8★ across 83 reviews. Call (727) 522-7387.">
+<meta name="twitter:image" content="https://wilsoninnovations.net/furry-friends-pet-grooming/assets/og-image.jpg">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%234f6544'/%3E%3Cg fill='%23f1e6d8'%3E%3Cellipse cx='32' cy='40' rx='11' ry='8.5'/%3E%3Ccircle cx='19' cy='29' r='4.3'/%3E%3Ccircle cx='27.5' cy='22' r='4.3'/%3E%3Ccircle cx='36.5' cy='22' r='4.3'/%3E%3Ccircle cx='45' cy='29' r='4.3'/%3E%3C/g%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Gayathri:wght@100;400;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PetGroomer",
+  "name": "Furry Friends Pet Grooming",
+  "description": "A personal, one-on-one dog groomer in St. Petersburg, Florida — full grooms, breed-style cuts, baths, de-shedding and walk-in nail trims, groomed gently and unhurried by owner-groomer George.",
+  "url": "https://wilsoninnovations.net/furry-friends-pet-grooming/",
+  "image": "https://wilsoninnovations.net/furry-friends-pet-grooming/assets/og-image.jpg",
+  "telephone": "+17275227387",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "4320 4th St N",
+    "addressLocality": "St. Petersburg",
+    "addressRegion": "FL",
+    "postalCode": "33703",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "St. Petersburg" },
+    { "@type": "AdministrativeArea", "name": "Pinellas County" }
+  ],
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "07:30", "closes": "17:00" }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "83"
+  }
+}
+</script>
+
+<style>
+  :root{
+    --ink:#32362c;            /* warm green-charcoal */
+    --ink-soft:#5f6353;
+    --sage:#8ba07d;           /* soft sage brand */
+    --sage-deep:#556a48;      /* text/links on light (AA) */
+    --sage-btn:#4f6544;       /* button bg, white text AA */
+    --sage-050:#f1f5ec;       /* mist tint */
+    --sage-075:#f7faf3;
+    --sage-100:#e3ebda;
+    --terra:#c17a54;          /* gentle terracotta accent */
+    --terra-deep:#a85f3c;
+    --terra-050:#f8ede5;
+    --terra-100:#f0dccd;
+    --gold:#dd9a34;           /* review stars */
+    --ivory:#faf8f1;          /* warm ivory */
+    --white:#ffffff;
+    --line:#e7e4d5;
+    --shadow:0 22px 54px -28px rgba(50,54,44,.4);
+    --shadow-sm:0 10px 28px -18px rgba(50,54,44,.46);
+    --radius:18px;
+    --radius-lg:26px;
+    --maxw:1160px;
+    --ease:cubic-bezier(.2,.7,.2,1);
+  }
+
+  *{box-sizing:border-box}
+  html,body{overflow-x:clip}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    font-family:"Gayathri",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    color:var(--ink);
+    background:var(--ivory);
+    line-height:1.66;
+    font-size:17px;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  h1,h2,h3,h4{margin:0;line-height:1.15}
+  .display{font-family:"Della Respira",Georgia,serif;font-weight:400;line-height:1.2;letter-spacing:.004em}
+  p{margin:0}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-left:22px;padding-right:22px}
+  ::selection{background:var(--sage-100);color:var(--ink)}
+
+  /* ---------- Header ---------- */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(250,248,241,.86);
+    backdrop-filter:saturate(150%) blur(10px);
+    -webkit-backdrop-filter:saturate(150%) blur(10px);
+    border-bottom:1px solid transparent;
+    transition:border-color .25s ease,background .25s ease;
+  }
+  header.is-scrolled{border-bottom-color:var(--line);background:rgba(250,248,241,.95)}
+  .bar{display:flex;align-items:center;gap:14px;padding-top:12px;padding-bottom:12px}
+  .brand{display:flex;align-items:center;gap:12px;min-width:0;flex:1}
+  .mark{
+    flex:0 0 auto;width:46px;height:46px;border-radius:14px;
+    background:linear-gradient(145deg,var(--sage),var(--sage-btn));
+    display:grid;place-items:center;box-shadow:var(--shadow-sm);
+    box-shadow:0 8px 20px -10px rgba(79,101,68,.7), inset 0 1px 0 rgba(255,255,255,.28);
+  }
+  .mark svg{width:26px;height:26px}
+  .brand-txt{min-width:0}
+  .brand-name{
+    font-family:"Della Respira",Georgia,serif;font-weight:400;font-size:1.16rem;color:var(--ink);
+    line-height:1.1;white-space:normal;overflow-wrap:break-word;
+  }
+  .brand-sub{font-family:"Gayathri",sans-serif;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--sage-deep);font-weight:700;margin-top:3px}
+
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:9px;
+    font-family:"Gayathri",sans-serif;font-weight:700;font-size:1rem;
+    padding:13px 22px;border-radius:999px;cursor:pointer;border:1.8px solid transparent;
+    transition:transform .18s var(--ease),box-shadow .22s ease,background .22s ease,border-color .22s ease,color .2s ease;
+    white-space:nowrap;position:relative;overflow:hidden;
+  }
+  .btn svg{width:18px;height:18px;flex:0 0 auto}
+  .btn-sage{background:var(--sage-btn);color:#fff;box-shadow:0 14px 28px -15px rgba(79,101,68,.95)}
+  .btn-sage:hover{transform:translateY(-2px);box-shadow:0 18px 34px -13px rgba(79,101,68,1)}
+  .btn-sage::after{
+    content:"";position:absolute;top:0;bottom:0;left:-75%;width:45%;
+    background:linear-gradient(105deg,transparent,rgba(255,255,255,.4),transparent);
+    transform:skewX(-18deg);transition:left .6s var(--ease);pointer-events:none;
+  }
+  .btn-sage:hover::after{left:135%}
+  .btn-terra{background:var(--terra);color:#fff;box-shadow:0 14px 28px -16px rgba(168,95,60,.95)}
+  .btn-terra:hover{transform:translateY(-2px);box-shadow:0 18px 34px -13px rgba(168,95,60,1)}
+  .btn-ghost{background:#fff;color:var(--ink);border-color:var(--line)}
+  .btn-ghost:hover{border-color:var(--sage);color:var(--sage-deep);transform:translateY(-2px)}
+  .btn-lg{padding:16px 30px;font-size:1.06rem}
+  .header-call{flex:0 0 auto}
+
+  /* ---------- Hero ---------- */
+  .hero{position:relative;padding-top:60px;padding-bottom:70px;overflow:hidden}
+  .hero::before{
+    content:"";position:absolute;inset:0;z-index:-1;
+    background:
+      radial-gradient(1100px 480px at 84% -10%,var(--sage-050),transparent 60%),
+      radial-gradient(760px 440px at -8% 112%,var(--terra-050),transparent 62%);
+  }
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center;min-height:clamp(500px,72vh,640px)}
+  .hero-copy{min-width:0}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:9px;font-family:"Gayathri",sans-serif;font-weight:700;
+    font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;color:var(--sage-deep);
+    background:var(--sage-050);border:1px solid var(--sage-100);padding:7px 15px;border-radius:999px;
+  }
+  .eyebrow::before{content:"";width:22px;height:2px;background:var(--terra);border-radius:2px;flex:0 0 auto}
+  .hero h1{font-size:clamp(2.4rem,5.1vw,3.75rem);margin-top:22px;color:var(--ink);max-width:15ch;text-wrap:balance}
+  .hero h1 .hl{color:var(--sage-deep);font-style:italic}
+  .hero .lede{font-size:1.15rem;color:var(--ink-soft);margin-top:20px;max-width:34em}
+  .hero .lede b{color:var(--ink);font-weight:700}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:13px;margin-top:30px}
+  .hero-note{margin-top:18px;font-size:.93rem;color:var(--ink-soft);display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+  .hero-note svg{width:17px;height:17px;color:var(--sage);flex:0 0 auto}
+
+  .stars{color:var(--gold);letter-spacing:1px;font-size:1.02rem}
+  .rating-pill{
+    display:inline-flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);
+    border-radius:999px;padding:9px 18px 9px 15px;box-shadow:var(--shadow-sm);margin-top:26px;
+  }
+  .rating-pill .sub{font-size:.92rem;color:var(--ink-soft);font-weight:700}
+  .rating-pill b{color:var(--ink)}
+
+  .hero-media{position:relative;min-width:0}
+  .hero-media .frame{
+    border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow);
+    border:7px solid #fff;transform:rotate(1.4deg);
+  }
+  .hero-media .frame img{width:100%;height:min(560px,64vh);object-fit:cover;object-position:50% 32%}
+  .hero-badge{
+    position:absolute;right:-12px;bottom:24px;background:#fff;border-radius:16px;
+    padding:14px 18px;box-shadow:var(--shadow);border:1px solid var(--line);
+    display:flex;align-items:center;gap:13px;transform:rotate(1.4deg);max-width:78%;
+  }
+  .hero-badge .ic{width:46px;height:46px;border-radius:13px;background:var(--terra-050);display:grid;place-items:center;flex:0 0 auto}
+  .hero-badge .ic svg{width:24px;height:24px;color:var(--terra-deep)}
+  .hero-badge b{font-family:"Gayathri",sans-serif;font-weight:700;display:block;font-size:1rem;line-height:1.2}
+  .hero-badge span{font-size:.82rem;color:var(--ink-soft)}
+
+  /* ---------- Trust strip ---------- */
+  .trust{background:var(--ink)}
+  .trust .wrap{padding-top:20px;padding-bottom:20px;display:flex;flex-wrap:wrap;gap:12px 38px;justify-content:center;align-items:center}
+  .trust-item{display:flex;align-items:center;gap:11px;font-size:.97rem;color:#eef0e6}
+  .trust-item svg{width:20px;height:20px;color:var(--sage);flex:0 0 auto}
+  .trust-item b{font-family:"Gayathri",sans-serif;font-weight:700;color:#fff}
+
+  /* ---------- Sections ---------- */
+  section{position:relative}
+  .band{padding-top:82px;padding-bottom:82px}
+  .band-mist{background:var(--sage-050);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .sec-head{max-width:680px;margin:0 auto 50px;text-align:center}
+  .sec-head .eyebrow{margin-bottom:16px}
+  .sec-head h2{font-size:clamp(1.95rem,3.7vw,2.8rem);color:var(--ink);text-wrap:balance}
+  .sec-head p{color:var(--ink-soft);margin-top:15px;font-size:1.07rem}
+
+  /* Services */
+  .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .svc{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:30px 26px;
+    box-shadow:var(--shadow-sm);transition:transform .22s var(--ease),box-shadow .22s ease,border-color .22s ease;min-width:0;
+  }
+  .svc:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:var(--sage-100)}
+  .svc .ic{
+    width:56px;height:56px;border-radius:15px;display:grid;place-items:center;margin-bottom:18px;
+    background:linear-gradient(145deg,var(--sage-050),#fff);border:1px solid var(--sage-100);
+  }
+  .svc .ic svg{width:28px;height:28px;color:var(--sage-deep)}
+  .svc h3{font-family:"Gayathri",sans-serif;font-size:1.24rem;font-weight:700;margin-bottom:8px}
+  .svc p{color:var(--ink-soft);font-size:.98rem}
+  .svc.accent .ic{background:var(--terra-050);border-color:var(--terra-100)}
+  .svc.accent .ic svg{color:var(--terra-deep)}
+
+  /* Feature / the difference */
+  .feature{display:grid;grid-template-columns:.95fr 1.05fr;gap:56px;align-items:center}
+  .feature-media{position:relative;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow);border:7px solid #fff;min-width:0}
+  .feature-media img{width:100%;height:min(500px,58vh);object-fit:cover}
+  .feature-cap{
+    position:absolute;left:0;bottom:0;background:linear-gradient(110deg,var(--sage-btn),var(--sage));
+    color:#fff;font-family:"Gayathri",sans-serif;font-weight:700;font-size:.86rem;letter-spacing:.02em;
+    padding:10px 18px;border-top-right-radius:14px;
+  }
+  .feature-copy{min-width:0}
+  .feature-copy h2{font-size:clamp(1.85rem,3.5vw,2.55rem);color:var(--ink);margin-top:14px;text-wrap:balance}
+  .feature-copy .eyebrow{margin-bottom:14px}
+  .feature-copy>p{color:var(--ink-soft);margin-top:16px;font-size:1.05rem}
+  .points{margin-top:24px;display:flex;flex-direction:column;gap:16px}
+  .point{display:flex;gap:15px;align-items:flex-start}
+  .point .ck{
+    flex:0 0 auto;width:38px;height:38px;border-radius:12px;background:var(--sage-050);border:1px solid var(--sage-100);
+    display:grid;place-items:center;
+  }
+  .point .ck svg{width:20px;height:20px;color:var(--sage-deep)}
+  .point h4{font-family:"Gayathri",sans-serif;font-size:1.08rem;font-weight:700;margin-bottom:2px}
+  .point p{color:var(--ink-soft);font-size:.97rem}
+
+  /* Gallery */
+  .gal{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .gal figure{margin:0;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);position:relative;min-width:0;border:1px solid var(--line)}
+  .gal img{width:100%;height:250px;object-fit:cover;transition:transform .45s var(--ease)}
+  .gal figure:hover img{transform:scale(1.06)}
+  .gal figcaption{
+    position:absolute;left:0;right:0;bottom:0;padding:28px 16px 13px;color:#fff;font-size:.9rem;
+    font-family:"Gayathri",sans-serif;font-weight:700;
+    background:linear-gradient(to top,rgba(40,44,34,.82),rgba(40,44,34,0));
+  }
+  .gallery-note{text-align:center;font-size:.85rem;color:var(--ink-soft);margin-top:24px;font-style:italic}
+
+  /* Stat band */
+  .statband{background:linear-gradient(120deg,var(--sage-btn) 0%,var(--sage-deep) 52%,var(--sage) 100%);position:relative;overflow:hidden}
+  .statband::before{content:"";position:absolute;inset:0;background:radial-gradient(600px 300px at 85% 120%,rgba(193,122,84,.28),transparent 60%);pointer-events:none}
+  .statband .wrap{padding-top:44px;padding-bottom:44px;display:flex;flex-wrap:wrap;gap:22px 30px;justify-content:center;align-items:center;text-align:center;position:relative}
+  .stat{display:flex;flex-direction:column;gap:3px;min-width:120px}
+  .stat b{font-family:"Della Respira",Georgia,serif;font-size:clamp(1.7rem,3.4vw,2.5rem);color:#fff;line-height:1.05}
+  .stat span{font-size:.82rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.86)}
+  .stat-div{width:9px;height:9px;background:rgba(255,255,255,.55);transform:rotate(45deg);flex:0 0 auto}
+
+  /* Testimonials */
+  .tgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .tcard{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px 26px;
+    box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:13px;min-width:0;
+    transition:transform .22s var(--ease),box-shadow .22s ease;
+  }
+  .tcard:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+  .tcard .stars{font-size:1rem}
+  .tcard blockquote{margin:0;font-size:1.01rem;color:var(--ink);line-height:1.62}
+  .tcard .who{display:flex;align-items:center;gap:12px;margin-top:auto}
+  .tcard .av{
+    width:44px;height:44px;border-radius:50%;flex:0 0 auto;display:grid;place-items:center;
+    font-family:"Gayathri",sans-serif;font-weight:700;color:#fff;font-size:1.05rem;
+  }
+  .tcard .who b{font-family:"Gayathri",sans-serif;font-weight:700;display:block;font-size:.98rem}
+  .tcard .who span{font-size:.82rem;color:var(--ink-soft)}
+
+  /* Area / visit */
+  .area{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+  .area h2{font-size:clamp(1.85rem,3.5vw,2.55rem);margin-top:14px;color:var(--ink)}
+  .area>div>p{color:var(--ink-soft);margin-top:15px;font-size:1.05rem}
+  .area>div>p b{color:var(--ink)}
+  .area-list{list-style:none;padding:0;margin:22px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .area-list li{display:flex;align-items:center;gap:9px;font-size:.97rem;color:var(--ink-soft)}
+  .area-list svg{width:16px;height:16px;color:var(--terra);flex:0 0 auto}
+
+  .hours-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);overflow:hidden;min-width:0}
+  .hours-head{display:flex;align-items:center;gap:13px;padding:20px 26px;border-bottom:1px solid var(--line)}
+  .hours-head svg{width:22px;height:22px;color:var(--sage-deep);flex:0 0 auto}
+  .hours-head b{font-family:"Della Respira",Georgia,serif;font-weight:400;font-size:1.22rem}
+  .hours-row{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 26px;border-top:1px solid var(--sage-050);font-size:.98rem}
+  .hours-row:first-of-type{border-top:none}
+  .hours-row span{color:var(--ink-soft)}
+  .hours-row b{color:var(--ink);font-weight:700;font-family:"Gayathri",sans-serif}
+  .hours-row.closed b{color:var(--ink-soft);font-weight:400}
+  .hours-row.today{background:var(--sage-050)}
+  .hours-row.today span,.hours-row.today b{color:var(--sage-deep)}
+  .hours-foot{padding:16px 26px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:11px}
+
+  /* CTA band */
+  .cta{
+    background:linear-gradient(135deg,var(--sage-deep),var(--sage-btn));color:#fff;border-radius:var(--radius-lg);
+    padding:56px 40px;text-align:center;box-shadow:var(--shadow);position:relative;overflow:hidden;
+  }
+  .cta::before,.cta::after{content:"";position:absolute;border-radius:50%}
+  .cta::before{width:320px;height:320px;top:-140px;right:-90px;background:radial-gradient(circle,rgba(193,122,84,.34),transparent 66%)}
+  .cta::after{width:230px;height:230px;bottom:-120px;left:-70px;background:radial-gradient(circle,rgba(255,255,255,.12),transparent 68%)}
+  .cta .eyebrow{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.32);color:#fff;position:relative}
+  .cta .eyebrow::before{background:#fff}
+  .cta .cphone{
+    display:inline-block;font-family:"Della Respira",Georgia,serif;font-size:clamp(2rem,5vw,3.1rem);
+    margin-top:18px;color:#fff;position:relative;letter-spacing:.01em;
+  }
+  .cta h2{font-size:clamp(1.8rem,3.6vw,2.5rem);position:relative;margin-top:6px}
+  .cta p{margin-top:14px;font-size:1.08rem;color:rgba(255,255,255,.92);position:relative;max-width:36em;margin-left:auto;margin-right:auto}
+  .cta-btns{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:28px;position:relative}
+  .cta .btn-ghost{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.5);color:#fff}
+  .cta .btn-ghost:hover{background:rgba(255,255,255,.22);border-color:#fff;color:#fff}
+  .cta .btn-terra{box-shadow:0 14px 30px -14px rgba(0,0,0,.4)}
+  .cta-fine{margin-top:22px;font-size:.85rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:rgba(255,255,255,.8);position:relative}
+
+  /* Footer */
+  footer{background:var(--ink);color:#c9ccbe;padding-top:56px;padding-bottom:30px}
+  .foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:38px}
+  .foot-brand{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+  .foot-brand .brand-name{color:#fff}
+  .foot-brand .brand-sub{color:var(--sage)}
+  footer p{font-size:.94rem;line-height:1.7;max-width:32ch}
+  footer h4{font-family:"Gayathri",sans-serif;color:#fff;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:15px;font-weight:700}
+  .foot-links{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+  .foot-links a,.foot-links li{color:#c9ccbe;font-size:.95rem;display:inline-flex;align-items:center;gap:9px}
+  .foot-links a:hover{color:#fff}
+  .foot-links svg{width:16px;height:16px;color:var(--sage);flex:0 0 auto}
+  .foot-bottom{border-top:1px solid rgba(255,255,255,.13);margin-top:40px;padding-top:22px;display:flex;flex-wrap:wrap;gap:10px 20px;justify-content:space-between;font-size:.85rem;color:#8f927f}
+  .foot-bottom a{color:#c9ccbe;text-decoration:underline;text-underline-offset:2px}
+  .foot-bottom a:hover{color:#fff}
+
+  /* Reveal animation (DESIGN.md signature) */
+  .reveal{opacity:0;transform:translateY(26px) scale(.975);filter:blur(7px);
+    transition:opacity .8s var(--ease),transform .8s var(--ease),filter .8s var(--ease)}
+  .reveal.in{opacity:1;transform:none;filter:none}
+  .reveal[data-d="1"]{transition-delay:.09s}
+  .reveal[data-d="2"]{transition-delay:.18s}
+  .reveal[data-d="3"]{transition-delay:.27s}
+  .svc-grid>.reveal:nth-child(2),.tgrid>.reveal:nth-child(2),.gal>.reveal:nth-child(2){transition-delay:.1s}
+  .svc-grid>.reveal:nth-child(3),.tgrid>.reveal:nth-child(3),.gal>.reveal:nth-child(3){transition-delay:.2s}
+  .svc-grid>.reveal:nth-child(4),.gal>.reveal:nth-child(4){transition-delay:.3s}
+
+  :focus-visible{outline:3px solid var(--sage-deep);outline-offset:3px;border-radius:6px}
+
+  @media (max-width:960px){
+    .hero-grid{grid-template-columns:1fr;gap:38px;min-height:0}
+    .hero-media{order:-1}
+    .hero-media .frame img{height:min(420px,52vh)}
+    .feature{grid-template-columns:1fr;gap:34px}
+    .area{grid-template-columns:1fr;gap:32px}
+    .svc-grid{grid-template-columns:repeat(2,1fr)}
+    .tgrid{grid-template-columns:1fr}
+    .gal{grid-template-columns:repeat(2,1fr)}
+    .foot-grid{grid-template-columns:1fr 1fr;gap:30px}
+    .foot-brand{grid-column:1/-1}
+  }
+  @media (max-width:620px){
+    body{font-size:16px}
+    .band{padding-top:60px;padding-bottom:60px}
+    .svc-grid{grid-template-columns:1fr}
+    .area-list{grid-template-columns:1fr}
+    .gal{grid-template-columns:1fr 1fr;gap:12px}
+    .gal img{height:165px}
+    .cta{padding:44px 24px}
+    .hero-badge{right:0;max-width:86%}
+    .hero-cta .btn{flex:1 1 auto}
+    .foot-grid{grid-template-columns:1fr}
+    .foot-bottom{flex-direction:column}
+    .statband .wrap{gap:16px 22px}
+    .stat-div{display:none}
+  }
+  @media (max-width:600px){
+    .brand-name{font-size:1.02rem;line-height:1.12;max-width:12em}
+    .header-call .btn span{display:none}
+    .header-call .btn{padding:12px 14px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .reveal{opacity:1;transform:none;filter:none;transition:none}
+    html{scroll-behavior:auto}
+    *{transition:none!important}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Furry Friends Pet Grooming home">
+      <div class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor" style="color:#f1e6d8"><ellipse cx="12" cy="16" rx="5" ry="4"/><circle cx="5.7" cy="10.6" r="2"/><circle cx="9.5" cy="7.4" r="2"/><circle cx="14.5" cy="7.4" r="2"/><circle cx="18.3" cy="10.6" r="2"/></svg>
+      </div>
+      <div class="brand-txt">
+        <div class="brand-name">Furry Friends Pet Grooming</div>
+        <div class="brand-sub">St. Petersburg, FL</div>
+      </div>
+    </a>
+    <div class="header-call">
+      <a class="btn btn-sage" href="tel:+17275227387" aria-label="Call Furry Friends Pet Grooming at (727) 522-7387">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>(727)&nbsp;522-7387</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">St. Petersburg · One dog at a time</span>
+        <h1 class="display">Grooming that treats your dog like <span class="hl">a friend</span>.</h1>
+        <p class="lede">Furry Friends is a personal, unhurried dog groomer in St. Petersburg. <b>Full grooms, baths, de-shedding and walk-in nail trims</b> — every pup handled gently, one-on-one by owner-groomer George. Not a retail assembly line.</p>
+        <div class="hero-cta">
+          <a class="btn btn-sage btn-lg" href="tel:+17275227387">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call to book · (727) 522-7387
+          </a>
+          <a class="btn btn-ghost btn-lg" href="#services">See our services</a>
+        </div>
+        <div class="rating-pill">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <span class="sub"><b>4.8</b> · 83 Google reviews</span>
+        </div>
+        <p class="hero-note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          Calm handling · Spotless salon · Fair, honest pricing
+        </p>
+      </div>
+      <div class="hero-media">
+        <div class="frame">
+          <img src="assets/hero.jpg" alt="A happy, freshly groomed golden dog smiling at the camera" fetchpriority="high" width="1500" height="2069">
+        </div>
+        <div class="hero-badge">
+          <div class="ic" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.4-9.2-8.5C1.3 9.6 2.8 6.5 6 6.5c1.9 0 3.2 1.1 4 2.3.8-1.2 2.1-2.3 4-2.3 3.2 0 4.7 3.1 3.2 6C19 16.6 12 21 12 21z"/></svg>
+          </div>
+          <div>
+            <b>Every pup leaves happy</b>
+            <span>Gentle, one-on-one care</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <div class="trust">
+    <div class="wrap">
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.9 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg><span><b>4.8★</b> across 83 reviews</span></div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 1 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg><span>Owner-groomer, <b>personal care</b></span></div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Calm, <b>unhurried</b> visits</span></div>
+      <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Serving <b>St. Petersburg &amp; Pinellas</b></span></div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="band" id="services">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">What we do</span>
+        <h2 class="display">Full-service grooming, done gently</h2>
+        <p>From a complete breed-style groom to a quick walk-in nail trim, every dog gets careful, patient attention — and plenty of treats along the way.</p>
+      </div>
+      <div class="svc-grid">
+        <div class="svc reveal">
+          <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3l2.5 8M16 3l-2.5 8"/><path d="M6.5 11h11l-1 7a2 2 0 0 1-2 1.7h-5A2 2 0 0 1 7.5 18l-1-7z"/></svg></div>
+          <h3>Full Grooms &amp; Breed Cuts</h3>
+          <p>Bath, blow-dry, brush-out and a clean, comfortable cut styled to suit your dog's breed and coat — start to finish, done right.</p>
+        </div>
+        <div class="svc accent reveal">
+          <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3l4 4-9 9-4 1 1-4 8-8z"/><path d="M13 4l3 3"/></svg></div>
+          <h3>Walk-In Nail Trims</h3>
+          <p>Quick, low-stress nail trims — many pups are in and out in minutes. Drop by on your way past; no appointment needed for a quick trim.</p>
+        </div>
+        <div class="svc reveal">
+          <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c2.5 3 5 5.4 5 8.4A5 5 0 0 1 7 11.4C7 8.4 9.5 6 12 3z"/><path d="M5 20c1.5-1.5 3.5-2 7-2s5.5.5 7 2"/></svg></div>
+          <h3>Baths, Brush-Outs &amp; De-Shed</h3>
+          <p>A warm, sudsy bath with a thorough brush-out and de-shedding treatment to leave your dog's coat soft, clean and tangle-free.</p>
+        </div>
+        <div class="svc reveal">
+          <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="15" rx="4.2" ry="3.3"/><circle cx="6.8" cy="10.8" r="1.8"/><circle cx="9.8" cy="8.2" r="1.8"/><circle cx="14.2" cy="8.2" r="1.8"/><circle cx="17.2" cy="10.8" r="1.8"/></svg></div>
+          <h3>Puppy's First Groom</h3>
+          <p>Gentle, reassuring first-timers welcome — even 10-week-old puppies. We keep it calm and positive so grooming feels like a good thing.</p>
+        </div>
+        <div class="svc accent reveal">
+          <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.4-9.2-8.5C1.3 9.6 2.8 6.5 6 6.5c1.9 0 3.2 1.1 4 2.3.8-1.2 2.1-2.3 4-2.3 3.2 0 4.7 3.1 3.2 6C19 16.6 12 21 12 21z"/></svg></div>
+          <h3>Calm, One-on-One Handling</h3>
+          <p>Nervous or wiggly? A relaxed, patient touch puts anxious dogs at ease — even the ones who "act insane" everywhere else.</p>
+        </div>
+        <div class="svc reveal">
+          <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><path d="M12 3 4 6v6c0 5 3.5 7.5 8 9 4.5-1.5 8-4 8-9V6l-8-3z"/></svg></div>
+          <h3>Spotless, Unhurried Salon</h3>
+          <p>A clean, calm space where your dog is never rushed through a line — just careful, one-at-a-time care and honest, fair pricing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE DIFFERENCE -->
+  <section class="band band-mist">
+    <div class="wrap feature">
+      <div class="feature-media reveal">
+        <img src="assets/feature.jpg" alt="A groomer gently blow-drying a small dog held close in their arms" loading="lazy" width="1300" height="867">
+        <span class="feature-cap">Gentle hands, start to finish</span>
+      </div>
+      <div class="feature-copy">
+        <span class="eyebrow reveal">The Furry Friends difference</span>
+        <h2 class="display reveal" data-d="1">A groomer your dog can relax with</h2>
+        <p class="reveal" data-d="2">At Furry Friends, your dog isn't one more in a rushed line-up. Owner-groomer George works with one dog at a time — listening to exactly what you want, taking his time, and keeping things calm from the first hello to the last treat.</p>
+        <div class="points">
+          <div class="point reveal">
+            <span class="ck" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+            <div><h4>Personal, not an assembly line</h4><p>One groomer, one dog at a time — the personal, excellent experience customers say they couldn't find elsewhere.</p></div>
+          </div>
+          <div class="point reveal" data-d="1">
+            <span class="ck" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+            <div><h4>A genuinely calming touch</h4><p>Dogs that hate nail trims or "act insane" at home settle right down — many owners are stunned by how relaxed their pup stays.</p></div>
+          </div>
+          <div class="point reveal" data-d="2">
+            <span class="ck" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+            <div><h4>Fair pricing, spotless space</h4><p>Reasonable, honest prices and an immaculate facility — quality care without the higher price tag you'll pay elsewhere.</p></div>
+          </div>
+        </div>
+        <div style="margin-top:28px">
+          <a class="btn btn-terra btn-lg reveal" data-d="2" href="tel:+17275227387">Call George · (727) 522-7387</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="band" id="gallery">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Fresh off the table</span>
+        <h2 class="display">Clean, comfortable &amp; happy</h2>
+        <p>A few of the happy, freshly groomed pups who trust Furry Friends to keep them looking and feeling their best.</p>
+      </div>
+      <div class="gal">
+        <figure class="reveal"><img src="assets/g1.jpg" alt="A fluffy freshly washed terrier with paws up, looking bright and clean" loading="lazy" width="1000" height="1333"><figcaption>Fresh groom</figcaption></figure>
+        <figure class="reveal"><img src="assets/g2.jpg" alt="A calm schnauzer wrapped snugly in a towel after a bath" loading="lazy" width="1000" height="1500"><figcaption>Warm &amp; cozy</figcaption></figure>
+        <figure class="reveal"><img src="assets/g3.jpg" alt="A happy dog holding a towel in its mouth after grooming" loading="lazy" width="1000" height="1257"><figcaption>Bath time</figcaption></figure>
+        <figure class="reveal"><img src="assets/g4.jpg" alt="A dog wrapped in a soft white towel licking its nose" loading="lazy" width="1000" height="1500"><figcaption>All done</figcaption></figure>
+      </div>
+      <p class="gallery-note">Every dog leaves clean, comfortable and looking their best — no matter the breed, size or temperament.</p>
+    </div>
+  </section>
+
+  <!-- STAT BAND -->
+  <section class="statband" aria-label="At a glance">
+    <div class="wrap">
+      <div class="stat"><b>4.8★</b><span>Average Rating</span></div>
+      <span class="stat-div" aria-hidden="true"></span>
+      <div class="stat"><b>83</b><span>Google Reviews</span></div>
+      <span class="stat-div" aria-hidden="true"></span>
+      <div class="stat"><b>One&nbsp;at&nbsp;a&nbsp;Time</b><span>Personal Care</span></div>
+      <span class="stat-div" aria-hidden="true"></span>
+      <div class="stat"><b>St.&nbsp;Petersburg</b><span>Pinellas County</span></div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="band band-mist" id="reviews">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">What pet parents say</span>
+        <h2 class="display">Loved by local dog families</h2>
+        <p>Real Google reviews from St. Petersburg pet parents on the calm handling, the personal care, and the results.</p>
+      </div>
+      <div class="tgrid">
+        <div class="tcard reveal">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <blockquote>"Went there to get my 10-week-old puppy's nails trimmed. I just randomly stopped by — George had no problem doing it right then and there. He was very nice, even gave her a treat. His price was very generous and he was fast, too. I'll definitely be going back."</blockquote>
+          <div class="who"><div class="av" style="background:#4f6544" aria-hidden="true">D</div><div><b>David J.</b><span>Google review</span></div></div>
+        </div>
+        <div class="tcard reveal">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <blockquote>"George is kind, friendly, and his energy is so calming! My dog hates having her nails cut but she wasn't stressed at all with George — she literally just laid there, I was stunned. (She acts insane with me!) Worth it to give her a good experience without the drama."</blockquote>
+          <div class="who"><div class="av" style="background:#a85f3c" aria-hidden="true">M</div><div><b>M. R.</b><span>Google review</span></div></div>
+        </div>
+        <div class="tcard reveal">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <blockquote>"George was very personable and the facility was spotless. He listened to what we wanted and the price was very reasonable. We have tried several groomers and have been disappointed with the quality of care at a much higher price."</blockquote>
+          <div class="who"><div class="av" style="background:#556a48" aria-hidden="true">L</div><div><b>L. S.</b><span>Google review</span></div></div>
+        </div>
+        <div class="tcard reveal">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <blockquote>"So much more than your average pet grooming — truly above and beyond! George, you are a real-life angel. Thank you for taking such good care of our little guy Aniken."</blockquote>
+          <div class="who"><div class="av" style="background:#c17a54" aria-hidden="true">C</div><div><b>Crystal B.</b><span>Google review</span></div></div>
+        </div>
+        <div class="tcard reveal">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <blockquote>"George is the most wonderful groomer. He truly loves the dogs and did such a great job with my Allie. I highly recommend Furry Friends if you want a personal, excellent experience and not a retail assembly line."</blockquote>
+          <div class="who"><div class="av" style="background:#4f6544" aria-hidden="true">D</div><div><b>David W.</b><span>Google review</span></div></div>
+        </div>
+        <div class="tcard reveal">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <blockquote>"A calm, unhurried groom and a genuinely happy dog at pickup — that's the Furry Friends promise. One groomer, one dog at a time, every single visit."</blockquote>
+          <div class="who"><div class="av" style="background:#a85f3c" aria-hidden="true">★</div><div><b>4.8★ · 83 reviews</b><span>on Google</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AREA / VISIT -->
+  <section class="band" id="visit">
+    <div class="wrap area">
+      <div class="reveal">
+        <span class="eyebrow">Stop by the salon</span>
+        <h2 class="display">Find us on 4th Street North</h2>
+        <p>We're right here in <b>St. Petersburg</b>, grooming dogs for families across <b>Pinellas County</b>. Call ahead to book a full groom, or just swing by during open hours for a quick walk-in nail trim.</p>
+        <p><b>4320 4th St N, St. Petersburg, FL 33703</b></p>
+        <ul class="area-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>St. Petersburg</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>Historic Kenwood &amp; nearby</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>Gulfport &amp; South Pinellas</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>All of Pinellas County</li>
+        </ul>
+        <div style="display:flex;gap:13px;flex-wrap:wrap;margin-top:26px">
+          <a class="btn btn-sage btn-lg" href="tel:+17275227387">Call (727) 522-7387</a>
+          <a class="btn btn-ghost btn-lg" href="https://www.google.com/maps/search/?api=1&query=Furry+Friends+Pet+Grooming+4320+4th+St+N+St+Petersburg+FL+33703" target="_blank" rel="noopener">Get directions</a>
+        </div>
+      </div>
+      <div class="reveal" data-d="1">
+        <div class="hours-card">
+          <div class="hours-head">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <b class="display">Grooming Hours</b>
+          </div>
+          <div class="hours-row closed"><span>Monday</span><b>Closed</b></div>
+          <div class="hours-row"><span>Tuesday</span><b>7:30 AM – 5:00 PM</b></div>
+          <div class="hours-row"><span>Wednesday</span><b>7:30 AM – 5:00 PM</b></div>
+          <div class="hours-row"><span>Thursday</span><b>7:30 AM – 5:00 PM</b></div>
+          <div class="hours-row"><span>Friday</span><b>7:30 AM – 5:00 PM</b></div>
+          <div class="hours-row"><span>Saturday</span><b>7:30 AM – 5:00 PM</b></div>
+          <div class="hours-row closed"><span>Sunday</span><b>Closed</b></div>
+          <div class="hours-foot">
+            <a class="btn btn-sage" href="tel:+17275227387" style="flex:1 1 auto">Call to book</a>
+            <a class="btn btn-ghost" href="sms:+17275227387" style="flex:1 1 auto">Text us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="band" style="padding-top:0">
+    <div class="wrap">
+      <div class="cta reveal">
+        <span class="eyebrow">Book your dog's groom</span>
+        <a class="cphone" href="tel:+17275227387">(727) 522-7387</a>
+        <h2 class="display">Give George a call today</h2>
+        <p>Schedule a full groom, or just walk in during open hours for a quick nail trim. Every breed, size and temperament is welcome at Furry Friends — and every visit is calm, personal and unhurried.</p>
+        <div class="cta-btns">
+          <a class="btn btn-terra btn-lg" href="tel:+17275227387">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call to book
+          </a>
+          <a class="btn btn-ghost btn-lg" href="sms:+17275227387">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            Text us
+          </a>
+        </div>
+        <p class="cta-fine">St. Petersburg, FL · Pinellas County · Tue–Sat 7:30–5</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <div class="mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" style="color:#f1e6d8"><ellipse cx="12" cy="16" rx="5" ry="4"/><circle cx="5.7" cy="10.6" r="2"/><circle cx="9.5" cy="7.4" r="2"/><circle cx="14.5" cy="7.4" r="2"/><circle cx="18.3" cy="10.6" r="2"/></svg>
+          </div>
+          <div class="brand-txt">
+            <div class="brand-name">Furry Friends Pet Grooming</div>
+            <div class="brand-sub">St. Petersburg · Dog Grooming</div>
+          </div>
+        </div>
+        <p>A personal, one-on-one dog groomer in St. Petersburg, FL. Full grooms, baths, de-shedding and walk-in nail trims — gentle, unhurried care for every breed and size.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul class="foot-links">
+          <li><a href="#services">Full Grooms &amp; Breed Cuts</a></li>
+          <li><a href="#services">Walk-In Nail Trims</a></li>
+          <li><a href="#services">Baths &amp; De-Shedding</a></li>
+          <li><a href="#gallery">Fresh Grooms Gallery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit &amp; Book</h4>
+        <ul class="foot-links">
+          <li><a href="tel:+17275227387"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>(727) 522-7387</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>4320 4th St N</li>
+          <li style="padding-left:25px">St. Petersburg, FL 33703</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Tue–Sat · 7:30 AM – 5:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Furry Friends Pet Grooming · St. Petersburg, FL</span>
+      <span>Website by <a href="https://wilsoninnovations.net" target="_blank" rel="noopener">Wilson Innovations</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var header=document.querySelector('header');
+  var onScroll=function(){ if(header) header.classList.toggle('is-scrolled', window.scrollY>8); };
+  onScroll(); window.addEventListener('scroll',onScroll,{passive:true});
+
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var els=[].slice.call(document.querySelectorAll('.reveal'));
+  if(reduce||!('IntersectionObserver' in window)){
+    els.forEach(function(e){e.classList.add('in');});
+    return;
+  }
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); }
+    });
+  },{threshold:0, rootMargin:'0px 0px 12% 0px'});
+  els.forEach(function(e){io.observe(e);});
+
+  var sweep=function(){
+    var vh=window.innerHeight||document.documentElement.clientHeight;
+    els.forEach(function(e){
+      if(e.classList.contains('in'))return;
+      if(e.getBoundingClientRect().top < vh*1.12){ e.classList.add('in'); }
+    });
+  };
+  window.addEventListener('load',sweep);
+  setTimeout(sweep,400);
+})();
+</script>
+</body>
+</html>
